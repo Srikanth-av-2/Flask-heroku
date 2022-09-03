@@ -28,5 +28,4 @@ api.add_resource(UserRegister,'/register')
 api.add_resource(Store,'/store/<string:name>')
 api.add_resource(StoreList,'/stores/')
  
-if __name__=='__main__':
-    app.run(port=5000,debug=True)
+app.run(port=5000,debug=True)
